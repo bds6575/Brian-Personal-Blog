@@ -10,4 +10,4 @@ Created a two page personal blog post website where users can input and view blo
 
 
 ## Link to Deployed Page
-https://bds6575.github.io/Brian-Employee-Payroll-Tracker/
+https://bds6575.github.io/Brian-Personal-Blog/
