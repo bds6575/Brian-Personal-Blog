@@ -20,7 +20,7 @@ function displayPosts() {
             <h2>${post.title}</h2>
             <p>${post.content}</p>
             <p>Author: ${post.username}</p>
-            <button class="delete-post">Delete</button> <!-- Add the delete button -->
+            <button class="delete-post">Delete</button> 
         `;
 
         // Add event listener to the delete button

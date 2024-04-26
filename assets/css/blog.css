@@ -88,6 +88,10 @@ footer a {
     color: #fff;
     text-decoration: none;
 }
+.dark-mode {
+    background-color: black;
+    color: white;
+}
 
 /* Responsive adjustments */
 @media screen and (max-width: 600px) {
