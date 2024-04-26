@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My First Blog - Posts</title>
-    <link rel="stylesheet" href="./assets/css/styles.css">
+    <link rel="stylesheet" href="./assets/css/blog.css">
 </head>
 <body class="light-mode">
     <header>
@@ -16,14 +16,31 @@
     <main>
         <section id="blog-posts">
             <!-- Display blog posts dynamically here -->
+            <!-- Example post (replace with actual data): -->
+            <article class="blog-post">
+                <h2>Sample Post Title</h2>
+                <p>Sample post content goes here.</p>
+                <p>Author: John Doe</p>
+                <button class="delete-post">Delete</button>
+            </article>
         </section>
     </main>
 
     <footer>
-        <a href="https://your-portfolio-link.com">Developer's Portfolio</a>
+        <p>Blog: Brian Personal Blog</p>
+        <p>Email: brian.sanchez2693@gmail.com</p>
+        <a href="https://bds6575.github.io/Brian-Week-Two-Challenge/">Brian's Portfolio: Click here!</a>
     </footer>
 
     <script src="./assets/js/blog.js"></script>
     <script src="./assets/js/form.js"></script>
+    <script>
+        const toggleMode = document.getElementById("toggle-mode");
+        const body = document.body;
+
+        toggleMode.addEventListener("change", () => {
+            body.classList.toggle("dark-mode");
+        });
+    </script>
 </body>
 </html>
